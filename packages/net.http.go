@@ -8,16 +8,9 @@ import (
 
 func init() {
 	Packages["net/http"] = map[string]interface{}{
-		"DefaultClient":     http.DefaultClient,
-		"DefaultServeMux":   http.DefaultServeMux,
-		"DefaultTransport":  http.DefaultTransport,
-		"Handle":            http.Handle,
-		"HandleFunc":        http.HandleFunc,
-		"ListenAndServe":    http.ListenAndServe,
-		"ListenAndServeTLS": http.ListenAndServeTLS,
-		"NewRequest":        http.NewRequest,
-		"NewServeMux":       http.NewServeMux,
-		"SetCookie":         http.SetCookie,
+		"DefaultClient":    http.DefaultClient,
+		"DefaultTransport": http.DefaultTransport,
+		"NewRequest":       http.NewRequest,
 	}
 	PackageTypes["net/http"] = map[string]interface{}{
 		"Client":   http.Client{},
