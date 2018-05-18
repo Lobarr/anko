@@ -142,6 +142,10 @@ func ImportToX(env *vm.Env) {
 		return time.Duration(v)
 	})
 
+	env.Define("toComplex", func(v float64) complex128 {
+		return complex(v, 0)
+	})
+
 }
 
 // toSlice takes in a "generic" slice and converts and copies

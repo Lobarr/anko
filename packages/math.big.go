@@ -26,4 +26,7 @@ func init() {
 		"ToPositiveInf": big.ToPositiveInf,
 		"ToZero":        big.ToZero,
 	}
+	PackageTypes["math/big"] = map[string]interface{}{
+		"Int": big.Int{},
+	}
 }
