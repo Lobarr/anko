@@ -1,0 +1,57 @@
+package packages
+
+import (
+	"github.com/cpmech/gosl/chk"
+)
+
+func init() {
+	Packages["gosl/chk"] = map[string]interface{}{
+		"AssertOn":                   chk.AssertOn,
+		"Verbose":                    chk.Verbose,
+		"ColorsOn":                   chk.ColorsOn,
+		"AnaNum":                     chk.AnaNum,
+		"AnaNumC":                    chk.AnaNumC,
+		"Array":                      chk.Array,
+		"Bools":                      chk.Bools,
+		"CallerInfo":                 chk.CallerInfo,
+		"Complex128":                 chk.Complex128,
+		"Deep2":                      chk.Deep2,
+		"Deep2c":                     chk.Deep2c,
+		"Deep3":                      chk.Deep3,
+		"Deep4":                      chk.Deep4,
+		"DerivScaSca":                chk.DerivScaSca,
+		"DerivScaVec":                chk.DerivScaVec,
+		"DerivVecSca":                chk.DerivVecSca,
+		"DerivVecVec":                chk.DerivVecVec,
+		"Err":                        chk.Err,
+		"Float64":                    chk.Float64,
+		"Float64assert":              chk.Float64assert,
+		"Int":                        chk.Int,
+		"Int32":                      chk.Int32,
+		"Int32s":                     chk.Int32s,
+		"Int64":                      chk.Int64,
+		"Int64s":                     chk.Int64s,
+		"IntAssert":                  chk.IntAssert,
+		"IntAssertLessThan":          chk.IntAssertLessThan,
+		"IntAssertLessThanOrEqualTo": chk.IntAssertLessThanOrEqualTo,
+		"IntDeep2":                   chk.IntDeep2,
+		"Ints":                       chk.Ints,
+		"Panic":                      chk.Panic,
+		"PanicSimple":                chk.PanicSimple,
+		"PrintAnaNum":                chk.PrintAnaNum,
+		"PrintAnaNumC":               chk.PrintAnaNumC,
+		"PrintOk":                    chk.PrintOk,
+		"PrintTitle":                 chk.PrintTitle,
+		"Recover":                    chk.Recover,
+		"RecoverTst":                 chk.RecoverTst,
+		"RecoverTstPanicIsOK":        chk.RecoverTstPanicIsOK,
+		"StrAssert":                  chk.StrAssert,
+		"StrDeep2":                   chk.StrDeep2,
+		"String":                     chk.String,
+		"Strings":                    chk.Strings,
+		"Symmetry":                   chk.Symmetry,
+		"TestDiffC":                  chk.TestDiffC,
+		"TstDiff":                    chk.TstDiff,
+		"TstFail":                    chk.TstFail,
+	}
+}
