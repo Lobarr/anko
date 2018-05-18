@@ -15,9 +15,5 @@ func init() {
 		"Uniq":        funk.Uniq,
 		"Sum":         funk.Sum,
 		"Reverse":     funk.Reverse,
-		// "ToMap":       funk.ToMap,
-		// "Filter": funk.Filter,
-		// "Map": funk.Map,
-		// "ForEach": funk.ForEach,
 	}
 }
