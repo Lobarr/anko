@@ -100,6 +100,7 @@ func init() {
 		"LagIntSet":        fun.LagIntSet{},
 		"LagrangeInterp":   fun.LagrangeInterp{},
 		"Sinusoid":         fun.Sinusoid{},
+		"InterpType":       fun.InterpType,
 	}
 }
 
