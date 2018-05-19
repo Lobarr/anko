@@ -4,7 +4,21 @@
 [[projects]]
   branch = "master"
   name = "github.com/cpmech/gosl"
-  packages = ["chk"]
+  packages = [
+    "chk",
+    "fun",
+    "fun/dbf",
+    "fun/fftw",
+    "io",
+    "la",
+    "la/oblas",
+    "mpi",
+    "plt",
+    "rnd",
+    "rnd/dsfmt",
+    "rnd/sfmt",
+    "utl"
+  ]
   revision = "a925e8003843454434e2f63fdb4e08f27b1526b8"
 
 [[projects]]
@@ -46,6 +60,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "61ec19555eef9552e2c077b3e13ef4c5b3b0e8fe29ee51a4944238fa7ba947f4"
+  inputs-digest = "d89753a8a20e10832f775f3b53c9cea91b840c80448e9789e447de404aa53726"
   solver-name = "gps-cdcl"
   solver-version = 1
