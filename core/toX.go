@@ -142,7 +142,7 @@ func ImportToX(env *vm.Env) {
 		return time.Duration(v)
 	})
 
-	env.Define("toComplex", func(v float64) complex128 {
+	env.Define("toComplex128", func(v float64) complex128 {
 		return complex(v, 0)
 	})
 
