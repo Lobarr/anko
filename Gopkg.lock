@@ -70,6 +70,12 @@
   revision = "ca032995066ee347806fa0dd8a594bfccf73f5a6"
 
 [[projects]]
+  branch = "master"
+  name = "github.com/jinzhu/now"
+  packages = ["."]
+  revision = "ed742868f2aebdb1c0c437bf4f7257f88834b66f"
+
+[[projects]]
   name = "github.com/jordan-wright/email"
   packages = ["."]
   revision = "94ae17dedda217a49e3b47d68f1b54b3c946e16b"
@@ -187,6 +193,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "a2647ae24939454ad598ee57f565fc7f8c9dadac163bee641be7b5b59f321627"
+  inputs-digest = "effee853c0d62a28f5fb1bd17b36a324eed6045e572334ce78dc250cb850fa22"
   solver-name = "gps-cdcl"
   solver-version = 1
