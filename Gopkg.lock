@@ -3,8 +3,46 @@
 
 [[projects]]
   branch = "master"
+  name = "github.com/antchfx/antch"
+  packages = ["."]
+  revision = "3224988d44ec21a3ac91b00f864508ecf40d7d2c"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/antchfx/htmlquery"
+  packages = ["."]
+  revision = "b4407197cfe83ed32ff00763f84809f65b6417c1"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/antchfx/xmlquery"
+  packages = ["."]
+  revision = "9188d8442369f50d972011092e34175d53e10476"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/antchfx/xpath"
+  packages = ["."]
+  revision = "077bca4d2caaf391ee780136adae00f59153dcd2"
+
+[[projects]]
+  branch = "master"
   name = "github.com/cpmech/gosl"
-  packages = ["chk"]
+  packages = [
+    "chk",
+    "fun",
+    "fun/dbf",
+    "fun/fftw",
+    "io",
+    "la",
+    "la/oblas",
+    "mpi",
+    "plt",
+    "rnd",
+    "rnd/dsfmt",
+    "rnd/sfmt",
+    "utl"
+  ]
   revision = "a925e8003843454434e2f63fdb4e08f27b1526b8"
 
 [[projects]]
@@ -26,10 +64,49 @@
   version = "v1.1.0"
 
 [[projects]]
+  branch = "master"
+  name = "github.com/galeone/tfgo"
+  packages = ["."]
+  revision = "ca032995066ee347806fa0dd8a594bfccf73f5a6"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/jinzhu/now"
+  packages = ["."]
+  revision = "ed742868f2aebdb1c0c437bf4f7257f88834b66f"
+
+[[projects]]
+  name = "github.com/jordan-wright/email"
+  packages = ["."]
+  revision = "94ae17dedda217a49e3b47d68f1b54b3c946e16b"
+  version = "v3.0"
+
+[[projects]]
+  name = "github.com/montanaflynn/stats"
+  packages = ["."]
+  revision = "1bf9dbcd8cbe1fdb75add3785b1d4a9a646269ab"
+  version = "0.3.0"
+
+[[projects]]
   name = "github.com/pmezard/go-difflib"
   packages = ["difflib"]
   revision = "792786c7400a136282c1664665ae0a8db921c6c2"
   version = "v1.0.0"
+
+[[projects]]
+  name = "github.com/sendgrid/rest"
+  packages = ["."]
+  revision = "306b9bef57dc36f3435ccfcc08fe6ae2c6920344"
+  version = "v2.4.1"
+
+[[projects]]
+  name = "github.com/sendgrid/sendgrid-go"
+  packages = [
+    ".",
+    "helpers/mail"
+  ]
+  revision = "8caf17aa96b4a98bae8bd216878dd50ff12897b5"
+  version = "v3.4.1"
 
 [[projects]]
   name = "github.com/stretchr/testify"
@@ -38,14 +115,84 @@
   version = "v1.2.1"
 
 [[projects]]
+  branch = "master"
+  name = "github.com/temoto/robotstxt"
+  packages = ["."]
+  revision = "9e4646fa705336d5b2fa9dddfafbe0a1a965acd7"
+
+[[projects]]
+  name = "github.com/tensorflow/tensorflow"
+  packages = [
+    "tensorflow/go",
+    "tensorflow/go/op"
+  ]
+  revision = "93bc2e2072e0daccbcff7a90d397b704a9e8f778"
+  version = "v1.8.0"
+
+[[projects]]
   name = "github.com/thoas/go-funk"
   packages = ["."]
   revision = "14304e8530de7dbb909c8305591b3a8370dd9dbb"
   version = "0.2"
 
+[[projects]]
+  name = "github.com/ybbus/jsonrpc"
+  packages = ["."]
+  revision = "dd866631e904a5df2067d934985c5def68f391ac"
+  version = "v2.1.2"
+
+[[projects]]
+  branch = "master"
+  name = "golang.org/x/net"
+  packages = [
+    "html",
+    "html/atom",
+    "html/charset",
+    "idna",
+    "internal/socks",
+    "proxy",
+    "publicsuffix"
+  ]
+  revision = "dfa909b99c79129e1100513e5cd36307665e5723"
+
+[[projects]]
+  branch = "master"
+  name = "golang.org/x/text"
+  packages = [
+    "collate",
+    "collate/build",
+    "encoding",
+    "encoding/charmap",
+    "encoding/htmlindex",
+    "encoding/internal",
+    "encoding/internal/identifier",
+    "encoding/japanese",
+    "encoding/korean",
+    "encoding/simplifiedchinese",
+    "encoding/traditionalchinese",
+    "encoding/unicode",
+    "internal/colltab",
+    "internal/gen",
+    "internal/language",
+    "internal/language/compact",
+    "internal/tag",
+    "internal/triegen",
+    "internal/ucd",
+    "internal/utf8internal",
+    "language",
+    "runes",
+    "secure/bidirule",
+    "transform",
+    "unicode/bidi",
+    "unicode/cldr",
+    "unicode/norm",
+    "unicode/rangetable"
+  ]
+  revision = "5c1cf69b5978e5a34c5f9ba09a83e56acc4b7877"
+
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "61ec19555eef9552e2c077b3e13ef4c5b3b0e8fe29ee51a4944238fa7ba947f4"
+  inputs-digest = "effee853c0d62a28f5fb1bd17b36a324eed6045e572334ce78dc250cb850fa22"
   solver-name = "gps-cdcl"
   solver-version = 1

@@ -75,17 +75,29 @@ func init() {
 		"NewLagrangeInterp":    fun.NewLagrangeInterp,
 		"NewSinusoidBasis":     fun.NewSinusoidBasis,
 		"NewSinusoidEssential": fun.NewSinusoidEssential,
+		"InterpType":           InterpType,
 		"ToInterpType":         ToInterpType,
+		"Ss":                   Ss,
 		"ToSs":                 ToSs,
+		"Sss":                  Sss,
 		"ToSss":                ToSss,
+		"Sv":                   Sv,
 		"ToSv":                 ToSv,
+		"Svs":                  Svs,
 		"ToSvs":                ToSvs,
+		"Tt":                   Tt,
 		"ToTt":                 ToTt,
+		"Tv":                   Tv,
 		"ToTv":                 ToTv,
+		"Vs":                   Vs,
 		"ToVs":                 ToVs,
+		"Vss":                  Vss,
 		"ToVss":                ToVss,
+		"Vv":                   Vv,
 		"ToVv":                 ToVv,
+		"Vvss":                 Vvss,
 		"ToVvss":               ToVvss,
+		"Vvvss":                Vvvss,
 		"ToVvvss":              ToVvvss,
 	}
 	PackageTypes["gosl/fun"] = map[string]interface{}{
@@ -103,48 +115,108 @@ func init() {
 	}
 }
 
+func InterpType() fun.InterpType {
+	var temp fun.InterpType
+	return temp
+}
+
 func ToInterpType(i int) fun.InterpType {
 	return fun.InterpType(i)
+}
+
+func Ss() fun.Ss {
+	var temp fun.Ss
+	return temp
 }
 
 func ToSs(f func(float64) float64) fun.Ss {
 	return fun.Ss(f)
 }
 
+func Sss() fun.Sss {
+	var temp fun.Sss
+	return temp
+}
+
 func ToSss(f func(float64, float64) float64) fun.Sss {
 	return fun.Sss(f)
+}
+
+func Sv() fun.Sv {
+	var temp fun.Sv
+	return temp
 }
 
 func ToSv(f func(la.Vector) float64) fun.Sv {
 	return fun.Sv(f)
 }
 
+func Svs() fun.Svs {
+	var temp fun.Svs
+	return temp
+}
+
 func ToSvs(f func(la.Vector, float64) float64) fun.Svs {
 	return fun.Svs(f)
+}
+
+func Tt() fun.Tt {
+	var temp fun.Tt
+	return temp
 }
 
 func ToTt(f func(*la.Triplet, *la.Triplet)) fun.Tt {
 	return fun.Tt(f)
 }
 
+func Tv() fun.Tv {
+	var temp fun.Tv
+	return temp
+}
+
 func ToTv(f func(*la.Triplet, la.Vector)) fun.Tv {
 	return fun.Tv(f)
+}
+
+func Vs() fun.Vs {
+	var temp fun.Vs
+	return temp
 }
 
 func ToVs(f func(la.Vector, float64)) fun.Vs {
 	return fun.Vs(f)
 }
 
+func Vss() fun.Vss {
+	var temp fun.Vss
+	return temp
+}
+
 func ToVss(f func(la.Vector, float64, float64)) fun.Vss {
 	return fun.Vss(f)
+}
+
+func Vv() fun.Vv {
+	var temp fun.Vv
+	return temp
 }
 
 func ToVv(f func(la.Vector, la.Vector)) fun.Vv {
 	return fun.Vv(f)
 }
 
+func Vvss() fun.Vvss {
+	var temp fun.Vvss
+	return temp
+}
+
 func ToVvss(f func(la.Vector, la.Vector, float64, float64)) fun.Vvss {
 	return fun.Vvss(f)
+}
+
+func Vvvss() fun.Vvvss {
+	var temp fun.Vvvss
+	return temp
 }
 
 func ToVvvss(f func(la.Vector, la.Vector, la.Vector, float64, float64)) fun.Vvvss {

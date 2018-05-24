@@ -60,6 +60,7 @@ func main() {
 	for _, p := range strings.Split(strings.TrimSpace(string(b)), string(filepath.ListSeparator)) {
 		paths = append(paths, filepath.Join(p, "src"))
 	}
+	fmt.Println(paths)
 	for _, p := range paths {
 		pp := filepath.Join(p, pkg)
 		pkgs, err := parseDir(pp)

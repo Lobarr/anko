@@ -44,3 +44,31 @@
 [[constraint]]
   name = "github.com/cstockton/go-conv"
   version = "1.0.0"
+
+[[constraint]]
+  name = "github.com/montanaflynn/stats"
+  branch = "master"
+
+[[constraint]]
+  branch = "master"
+  name = "github.com/antchfx/antch"
+
+[[constraint]]
+  branch = "master"
+  name = "github.com/galeone/tfgo"
+
+[[constraint]]
+  name = "github.com/sendgrid/sendgrid-go"
+  version = "3.4.1"
+
+[[constraint]]
+  name = "github.com/jordan-wright/email"
+  version = "3.0.0"
+
+[[constraint]]
+  name = "github.com/ybbus/jsonrpc"
+  version = "2.1.2"
+
+[[constraint]]
+  branch = "master"
+  name = "github.com/jinzhu/now"
