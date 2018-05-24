@@ -34,6 +34,17 @@ func init() {
 		"TexNum":                 io.TexNum,
 		"ToFcnConvertNum":        ToFcnConvertNum,
 		"ToReadLinesCallback":    ToReadLinesCallback,
+		"AppendToFile":           io.AppendToFile,
+		"WriteBytesToFile":       io.WriteBytesToFile,
+		"WriteBytesToFileD":      io.WriteBytesToFileD,
+		"WriteFile":              io.WriteFile,
+		"WriteFileD":             io.WriteFileD,
+		"WriteStringToFile":      io.WriteStringToFile,
+		"WriteStringToFileD":     io.WriteStringToFileD,
+		"ReadFile":               io.ReadFile,
+		"ReadLines":              io.ReadLines,
+		"ReadMatrix":             io.ReadMatrix,
+		"ReadTable":              io.ReadTable,
 	}
 	PackageTypes["gosl/io"] = map[string]interface{}{
 		"Report": io.Report{},

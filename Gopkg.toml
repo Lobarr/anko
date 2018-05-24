@@ -44,3 +44,19 @@
 [[constraint]]
   name = "github.com/cstockton/go-conv"
   version = "1.0.0"
+
+[[constraint]]
+  name = "github.com/montanaflynn/stats"
+  branch = "master"
+
+[[constraint]]
+  branch = "master"
+  name = "github.com/antchfx/antch"
+
+[[constraint]]
+  branch = "master"
+  name = "github.com/galeone/tfgo"
+
+[[constraint]]
+  name = "github.com/sendgrid/sendgrid-go"
+  version = "3.4.1"

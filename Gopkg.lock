@@ -3,6 +3,30 @@
 
 [[projects]]
   branch = "master"
+  name = "github.com/antchfx/antch"
+  packages = ["."]
+  revision = "3224988d44ec21a3ac91b00f864508ecf40d7d2c"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/antchfx/htmlquery"
+  packages = ["."]
+  revision = "7afeab9e150c53c8d592d884b0951a5a3b665a13"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/antchfx/xmlquery"
+  packages = ["."]
+  revision = "52ab7c76b916d59fd2fd5dfd8a616ecf9923b7c0"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/antchfx/xpath"
+  packages = ["."]
+  revision = "7148e5d6bb845772731e3979df279a1b0e8e90ac"
+
+[[projects]]
+  branch = "master"
   name = "github.com/cpmech/gosl"
   packages = [
     "chk",
@@ -40,10 +64,37 @@
   version = "v1.1.0"
 
 [[projects]]
+  branch = "master"
+  name = "github.com/galeone/tfgo"
+  packages = ["."]
+  revision = "ca032995066ee347806fa0dd8a594bfccf73f5a6"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/montanaflynn/stats"
+  packages = ["."]
+  revision = "1bf9dbcd8cbe1fdb75add3785b1d4a9a646269ab"
+
+[[projects]]
   name = "github.com/pmezard/go-difflib"
   packages = ["difflib"]
   revision = "792786c7400a136282c1664665ae0a8db921c6c2"
   version = "v1.0.0"
+
+[[projects]]
+  name = "github.com/sendgrid/rest"
+  packages = ["."]
+  revision = "306b9bef57dc36f3435ccfcc08fe6ae2c6920344"
+  version = "v2.4.1"
+
+[[projects]]
+  name = "github.com/sendgrid/sendgrid-go"
+  packages = [
+    ".",
+    "helpers/mail"
+  ]
+  revision = "8caf17aa96b4a98bae8bd216878dd50ff12897b5"
+  version = "v3.4.1"
 
 [[projects]]
   name = "github.com/stretchr/testify"
@@ -52,14 +103,78 @@
   version = "v1.2.1"
 
 [[projects]]
+  branch = "master"
+  name = "github.com/temoto/robotstxt"
+  packages = ["."]
+  revision = "9e4646fa705336d5b2fa9dddfafbe0a1a965acd7"
+
+[[projects]]
+  name = "github.com/tensorflow/tensorflow"
+  packages = [
+    "tensorflow/go",
+    "tensorflow/go/op"
+  ]
+  revision = "93bc2e2072e0daccbcff7a90d397b704a9e8f778"
+  version = "v1.8.0"
+
+[[projects]]
   name = "github.com/thoas/go-funk"
   packages = ["."]
   revision = "14304e8530de7dbb909c8305591b3a8370dd9dbb"
   version = "0.2"
 
+[[projects]]
+  branch = "master"
+  name = "golang.org/x/net"
+  packages = [
+    "html",
+    "html/atom",
+    "html/charset",
+    "idna",
+    "internal/socks",
+    "proxy",
+    "publicsuffix"
+  ]
+  revision = "57065200b4b034a1c8ad54ff77069408c2218ae6"
+
+[[projects]]
+  branch = "master"
+  name = "golang.org/x/text"
+  packages = [
+    "collate",
+    "collate/build",
+    "encoding",
+    "encoding/charmap",
+    "encoding/htmlindex",
+    "encoding/internal",
+    "encoding/internal/identifier",
+    "encoding/japanese",
+    "encoding/korean",
+    "encoding/simplifiedchinese",
+    "encoding/traditionalchinese",
+    "encoding/unicode",
+    "internal/colltab",
+    "internal/gen",
+    "internal/language",
+    "internal/language/compact",
+    "internal/tag",
+    "internal/triegen",
+    "internal/ucd",
+    "internal/utf8internal",
+    "language",
+    "runes",
+    "secure/bidirule",
+    "transform",
+    "unicode/bidi",
+    "unicode/cldr",
+    "unicode/norm",
+    "unicode/rangetable"
+  ]
+  revision = "5c1cf69b5978e5a34c5f9ba09a83e56acc4b7877"
+
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "5dd824a2394ee8055cbb9fe105d240898d611f8189482180ff0efc93e6484524"
+  inputs-digest = "f6d020499a8637717aaff66a0ffba395be4d467dbbbfb9f1fe5558bee04572e8"
   solver-name = "gps-cdcl"
   solver-version = 1
